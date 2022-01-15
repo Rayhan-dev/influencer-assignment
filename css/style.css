@@ -74,7 +74,7 @@ nav {
 }
 .right-banner {
   width: 50%;
-  background-image: url(/images/bg1.svg);
+  background-image: url("/images/bg1.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -184,7 +184,7 @@ p {
   width: 100%;
   margin: auto;
   text-align: center;
-  background-image: url(/images/bg2.jpg);
+  background-image: url("/images/bg2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 }
