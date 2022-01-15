@@ -1,0 +1,126 @@
+@media screen and (min-device-width: 577px) and (max-device-width: 768px) {
+  header {
+    width: 90%;
+    margin: auto;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .navbar a {
+    padding-left: 10px;
+  }
+  .banner {
+    display: block;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 40vh;
+  }
+  .left-banner {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+  .left-banner h1 {
+    font-size: 36px;
+  }
+  .right-banner {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-size: contain;
+  }
+  .right-banner img {
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+  }
+  .brands {
+    width: 90%;
+    margin: auto;
+  }
+  .brand-images {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+  }
+  .brand-images img {
+    width: 80%;
+  }
+  .product_cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    grid-gap: 30px 50px;
+  }
+  .products img {
+    width: 100%;
+  }
+}
+@media screen and (min-device-width: 0px) and (max-device-width: 576px) {
+  nav {
+    display: none;
+  }
+  header {
+    padding-top: 10px 0px;
+    width: 95%;
+    display: block;
+  }
+  .logo {
+    font-size: 18px;
+    text-align: center;
+  }
+  .banner {
+    display: block;
+    width: 95%;
+    text-align: center;
+  }
+  .left-banner {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .left-banner h1 {
+    font-size: 36px;
+  }
+  .right-banner {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-size: contain;
+  }
+  .right-banner img {
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+  }
+  .brands {
+    width: 90%;
+    margin: auto;
+  }
+  .brand-images {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+  }
+  .brand-images img {
+    width: 80%;
+  }
+  .product_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+  .products img {
+    width: 100%;
+  }
+}
